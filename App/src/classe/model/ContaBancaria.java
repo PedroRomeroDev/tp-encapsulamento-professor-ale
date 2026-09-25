@@ -32,4 +32,8 @@ public class ContaBancaria {
         this.saldo -= value;
         System.out.println("Saldo Atual: " + this.saldo);
     }
+
+    public void consultarInformacoes () {
+        System.out.println("Titular: " + this.titular + "\nSaldo: " + this.saldo);
+    }
 }

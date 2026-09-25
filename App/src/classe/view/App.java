@@ -10,7 +10,7 @@ public class App {
         double valor = carro.encherTanque(6.5);
         System.out.println("Valor Encher Tanque de Gasolina: " + valor);
 
-
+        System.out.println("############################################");
         // Exemplo Conta Bancaria
         ContaBancaria conta = new ContaBancaria("Alessandro");
 
@@ -19,8 +19,9 @@ public class App {
 
         // Erro de Saque
         conta.sacar(3000);
+        conta.consultarInformacoes();
 
-
+        System.out.println("############################################");
         // Exemplo Produto
         Produto produto = new Produto();
         produto.getInformacoes();
